@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  color: #535657;
+  font-family: tahoma;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #dee7e7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #535657;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+#welcome-section {
+  margin-top: 30px;
+  background-color: #DEE7E7;
+  top: 0;
+  height: 100vh;
+}
+
+#welcome-section h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-section {
+  margin-top: 30px;
+  background-color: #4f646f;
+}
+
+.project-tile {
+  text-align: center;
+  float: left;
+  width: 50%;
+  height: 330px;
+  padding: 10px;
+  background-color: #b7adcf;
+}
+
+.project-img {
+  width: 60%;
+  height: 60%;
+}
