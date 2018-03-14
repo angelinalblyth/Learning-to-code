@@ -35,7 +35,7 @@
   height: 100vh;
 }
 
-#contact {
+/*#contact {
   margin-top: 30px;
   background-color: #DEE7E7;
   top: 0;
@@ -46,7 +46,7 @@
   background-color: #DEE7E7;
   top: 0;
   height: 100vh;
-}
+}*/
 
 #welcome-section h1 {
   margin: 0;
@@ -56,10 +56,10 @@
   transform: translate(-50%, -50%);
 }
 
-/*.contact-section {
+.contact-section {
   margin-top: 30px;
   background-color: #4f646f;
-}*/
+}*
 
 .project-tile {
   text-align: center;
