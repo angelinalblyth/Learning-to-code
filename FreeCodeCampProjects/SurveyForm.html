@@ -1,0 +1,116 @@
+<link rel="stylesheet" type="text/css" href="SurveyForm.css">
+
+
+<head>
+  <title>Survey Form</title>
+</head>
+
+<body>
+
+  <h1 id="title">
+    Survey Form
+  </h1>
+
+  <p id="description">This is a simple survey form for the Applied Responsive Web Design Project on Free Code Camp.</p>
+
+  <!--Start of the Form-->
+
+  <div id="form-container">
+
+    <form action="" id="survey-form">
+
+      <!-- Ask Users for their Name-->
+      <div>
+        <div>
+          <label for="name" id="name-label">Name:</label>
+        </div>
+        <div>
+          <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required maxlength="50" size="30">
+        </div>
+      </div>
+
+      <!--Ask user for their email-->
+
+      <div>
+        <div>
+          <label for="email" id="email-label">Email:</label>
+        </div>
+        <div>
+          <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required size="30">
+        </div>
+      </div>
+
+      <!--Asks user for their age-->
+
+      <div>
+        <div>
+          <label for="number" id="number-label">How old are you?:</label>
+        </div>
+        <div>
+          <input type="number" name="number" id="number" class="input-field" placeholder="27" min="1" max="100" size="30">
+        </div>
+      </div>
+
+      <!--Radio Buttons to ask users gender-->
+
+      <div>
+        <div>
+          <label for="gender">Gender:</label>
+        </div>
+        <div>
+          <input type="radio" name="radio-buttons" value="Female" id="gender" >Female
+        </div>
+        <div>
+          <input type="radio" name="radio-buttons" value="Female" id="gender">Male
+        </div>
+      </div>
+
+      <!--Dropdown List-->
+
+      <div>
+        <div>
+          <label for="dropdown">Where did you hear about us?:</label>
+        </div>
+        <div>
+          <select name="dropdown" id="dropdown">
+            <option value="google">Google Search</option>
+            <option value="facebook">Facebook</option>
+            <option value="word">Word of Mouth</option>
+          </select>
+        </div>
+      </div>
+
+      <!--Checkbox-->
+
+      <div>
+        <div>
+          <label for="checkbox">Are you enjoying this?:</label>
+        </div>
+        <div>
+          <input type="checkbox" name="yesno" id="checkbox" value="Yes">Yes
+        </div>
+        <div>
+          <input type="checkbox" name="yesno"  value="No">No
+        </div>
+      </div>
+
+      <!--Ask users for any additional comments-->
+
+      <div>
+        <div>
+          <label for="comments">Comments:</label>
+        </div>
+        <div>
+          <textarea name="comments" maxlength="1000" cols="25" rows="6" id="comments"></textarea>
+        </div>
+      </div>
+
+      <!--Submit Button-->
+      <div>
+        <input type="submit" value="Submit" id="submit">
+      </div>
+    </form>
+
+  </div>
+
+</body>
