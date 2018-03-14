@@ -54,10 +54,14 @@
   width: 50%;
   height: 330px;
   padding: 10px;
-  background-color: #b7adcf;
+ 
 }
 
 .project-img {
   width: 60%;
   height: 60%;
+}
+
+#projects{
+   background-color: #b7adcf;
 }
