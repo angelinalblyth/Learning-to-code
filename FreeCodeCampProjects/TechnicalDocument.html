@@ -32,9 +32,11 @@
     <header>HTML</header>
 
     <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It describes and defines the content of a webpage along with the basic layout of the webpage. Other technologies besides HTML are generally used to describe a webpage's
-      appearance/presentation <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">(CSS)</a> or functionality/behavior <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> (JavaScript)</a>.
+      appearance/presentation <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">(CSS)</a> or functionality/behavior <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> (JavaScript)</a>.</p>
 
-      <hr> "HyperText" refers to links that connect webpages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people,
+      <hr> 
+
+      <p>"HyperText" refers to links that connect webpages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people,
       you become an active participant in the World Wide Web. HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as
       <code> &lt;head&gt;</code>
       <code> &lt;title&gt;</code>
@@ -93,7 +95,7 @@
     <p>Attributes contain extra information about the element that you don't want to appear in the actual content. Here, class is the attribute name, and editor-note is the attribute value. The class attribute allows you to give the element an identifier
       that can be later used to target the element with style information and other things.</p>
 
-    <p>An attribute should always have:
+    <p>An attribute should always have:</p>
       <ol>
         <li>
           A space between it and the element name (or the previous attribute, if the element already has one or more attributes).</li>
@@ -103,7 +105,6 @@
           Opening and closing quote marks wrapped around the attribute value.
         </li>
       </ol>
-    </p>
 
     <h2>Nesting elements</h2>
 
@@ -133,7 +134,7 @@
 
       <h2>Anatomy of an HTML document</h2>
       <p>That wraps up the basics of individual HTML elements, but they aren't very useful on their own. Now we'll look at how individual elements are combined to form an entire HTML page. Let's revisit the code we put into our index.html example (which
-        we first met in the Dealing with files article):
+        we first met in the Dealing with files article):</p>
 
         <br>
         <br>
@@ -149,7 +150,9 @@
   &lt;/body&gt;<br>
 &lt;/html&gt;<br>
 <br>
-</code> Here we have:
+</code> 
+
+<p>Here we have:</p>
 
         <ul>
           <li>&lt;!DOCTYPE html&gt; — the doctype. In the mists of time, when HTML was young (about 1991/2), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML, which could mean automatic error
@@ -168,8 +171,6 @@
           <li>&lt;title&gt;&lt;/title&gt; — the &lt;title&gt; element. This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. It is also used to describe the page when you bookmark/favourite it.</li>
         </ul>
 
-      </p>
-
   </section>
 <hr>
   
@@ -180,7 +181,7 @@
       <br><br>&lt;img src="images/firefox-icon.png" alt="My test image"&gt;
 
       <br><br>As we said before, it embeds an image into our page in the position it appears. It does this via the <code>src</code> (source) attribute, which contains the path to our image file. We have also included an <code>alt</code> (alternative)
-      attribute. In this attribute, you specify descriptive text for users who cannot see the image, possibly because:
+      attribute. In this attribute, you specify descriptive text for users who cannot see the image, possibly because:</p>
 
       <ol>
         <li>They are visually impaired. Users with significant visual impairments often use tools called screen readers to read out the alt text to them.</li>
@@ -190,7 +191,9 @@
       <img src="https://mdn.mozillademos.org/files/9349/alt-text-example.png" alt="" style="display: block; height: 36px; margin: 0px auto; width: 108px;">
 
       <br>
-      <br> The key words about alt text are "descriptive text". The alt text you write should provide the reader with enough information to have a good idea of what the image conveys. In this example, our current text of "My test image" is no good at
+      <br> 
+
+      <p>The key words about alt text are "descriptive text". The alt text you write should provide the reader with enough information to have a good idea of what the image conveys. In this example, our current text of "My test image" is no good at
       all. A much better alternative for our Firefox logo would be "The Firefox logo: a flaming fox surrounding the Earth." Try coming up with some better alt text for your image now.</p>
 
   </section>
@@ -216,13 +219,15 @@
       <code>&lt;p&gt;This is a single paragraph&lt;/p&gt;</code><br><br> Add your sample text (you should have it from What should your website look like?) into one or a few paragraphs, placed directly below your &lt;img&gt; element.</p>
 
     <h2>Lists</h2>
-    <p>A lot of the web's content is lists, and HTML has special elements for these. Marking up lists always consist of at least two elements. The most common list types are ordered and unordered lists:
+    <p>A lot of the web's content is lists, and HTML has special elements for these. Marking up lists always consist of at least two elements. The most common list types are ordered and unordered lists:</p>
 
       <ol>
         <li>Unordered lists are for lists where the order of the items doesn't matter, like a shopping list. These are wrapped in a &lt;ul&gt; element.</li>
         <li>Ordered lists are for lists where the order of the items does matter, like a recipe. These are wrapped in an &lt;ol&gt; element.</li>
       </ol>
-      Each item inside the lists is put inside an &lt;li&gt; (list item) element. For example, if we wanted to turn the part of the following paragraph fragment into a list:
+
+      <p>
+      Each item inside the lists is put inside an &lt;li&gt; (list item) element. For example, if we wanted to turn the part of the following paragraph fragment into a list:</p>
       <br><br>
       <code>&lt;p&gt;At Mozilla, we’re a global community of technologists, thinkers, and builders working together ... &lt;/p&gt;</code> <br><br>We could modify the markup to this:
       <br><br>
@@ -237,10 +242,10 @@
 <br>
 &lt;p&gt;working together ... &lt;/p&gt;
 <br><br>
-</code> Try adding an ordered or unordered list to your example page.</p>
+</code> <p>Try adding an ordered or unordered list to your example page.</p>
 
     <h2>Links</h2>
-    <p>Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — &lt;a&gt; — the "a" being short for "anchor". To make text within your paragraph into a link, follow these steps:
+    <p>Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — &lt;a&gt; — the "a" being short for "anchor". To make text within your paragraph into a link, follow these steps:</p>
 
       <br>
       <ol>
@@ -250,6 +255,7 @@
 
         <li>Fill in the value of this attribute with the web address that you want the link to link to: &lt;a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto&lt;/a&gt;</li>
       </ol>
+      <p>
       You might get unexpected results if you omit the https:// or http:// part, called the protocol, at the beginning of the web address. After making a link, click it to make sure it is sending you where you wanted it to.
       <br>
       <br>href might appear like a rather obscure choice for an attribute name at first. If you are having trouble remembering it, remember that it stands for hypertext reference.
@@ -261,7 +267,7 @@
   <section class="main-section" id="Conclusion">
     <header>Conclusion</header>
     <p>If you have followed all the instructions in this article, you should end up with a page that looks like the one below (you can also <a href="http://mdn.github.io/beginner-html-site/">view it here</a>):
-      <img src="https://mdn.mozillademos.org/files/9351/finished-test-page-small.png"> A web page screenshot showing a firefox logo, a heading saying mozilla is cool, and two paragraphs of filler text Here, we have only really scratched the surface of
+      <img src="https://mdn.mozillademos.org/files/9351/finished-test-page-small.png" alt="Finshed Website"> A web page screenshot showing a firefox logo, a heading saying mozilla is cool, and two paragraphs of filler text Here, we have only really scratched the surface of
       HTML. To find out more, go to our <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">HTML Learning topic.</a></p>
   </section>
 
