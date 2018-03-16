@@ -67,3 +67,15 @@ titleCaseOver = 9000;
 //Basic JavaScript: Add Two Numbers with JavaScript
 
 var sum = 10 + 10;
+
+//Basic JavaScript: Subtract One Number from Another with JavaScript
+
+var difference = 45 - 33;
+
+//Basic JavaScript: Multiply Two Numbers with JavaScript
+
+var product = 8 * 10;
+
+//Basic JavaScript: Divide One Number by Another with JavaScript
+
+var quotient = 66 / 33;
