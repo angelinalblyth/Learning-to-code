@@ -31,9 +31,8 @@
 /*About Sections*/
 
 .about {
-  margin-top: 50%;
-  top: 0;
   height: 100vh;
+  top: 0;
 }
 
 .about h1 {
