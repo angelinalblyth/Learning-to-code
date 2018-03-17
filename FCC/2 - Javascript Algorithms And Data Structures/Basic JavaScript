@@ -97,4 +97,34 @@ var myVar = 11;
 // Only change code below this line
 myVar--;
 
+//Basic JavaScript: Create Decimal Numbers with JavaScript
+
+
+var ourDecimal = 5.7;
+
+// Only change code below this line
+
+var myDecimal = 2.7;
+
+//Basic JavaScript: Multiply Two Decimals with JavaScript
+
+
+var product = 2.0 * 2.5;
+
+//Basic JavaScript: Divide One Decimal by Another with JavaScript
+
+
+var quotient = 4.4 / 2.0; // Fix this line
+
+//Basic JavaScript: Finding a Remainder in JavaScript
+
+/*In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by 2.
+
+17 % 2 = 1 (17 is Odd)
+48 % 2 = 0 (48 is Even)*/
+
+
+// Only change code below this line
+
+var remainder = 11 % 3;
 
