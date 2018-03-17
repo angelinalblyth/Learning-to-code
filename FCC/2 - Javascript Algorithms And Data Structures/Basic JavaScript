@@ -128,3 +128,100 @@ var quotient = 4.4 / 2.0; // Fix this line
 
 var remainder = 11 % 3;
 
+//Basic JavaScript: Compound Assignment With Augmented Addition
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only modify code below this line
+
+a += 12;
+b += 9;
+c += 7;
+
+//Basic JavaScript: Compound Assignment With Augmented Subtraction
+
+
+var a = 11;
+var b = 9;
+var c = 3;
+
+// Only modify code below this line
+
+a -=  6;
+b -=  15;
+c -=  1;
+
+//Basic JavaScript: Compound Assignment With Augmented Multiplication
+
+
+var a = 5;
+var b = 12;
+var c = 4.6;
+
+// Only modify code below this line
+
+a *=  5;
+b *= 3;
+c *=  10;
+
+
+//Basic JavaScript: Compound Assignment With Augmented Division
+
+
+var a = 48;
+var b = 108;
+var c = 33;
+
+// Only modify code below this line
+
+a /= 12;
+b /=  4;
+c /=  11;
+
+//Basic JavaScript: Declare String Variables
+
+
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
+
+// Only change code below this line
+
+var myFirstName = "Angelina";
+var myLastName = "Blyth";
+
+
+//Basic JavaScript: Escaping Literal Quotes in Strings
+
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+
+//Basic JavaScript: Quoting Strings with Single Quotes
+
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+//Basic JavaScript: Escape Sequences in Strings
+
+/*Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab
+\b	backspace
+\f	form feed*/
+
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+//Basic JavaScript: Concatenating Strings with Plus Operator
+
+
+// Example
+var ourStr = "I come first. " + "I come second.";
+
+// Only change code below this line
+
+var myStr = "This is the start. " +  "This is the end.";
