@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
-  color: #535657;
   font-family: tahoma;
   text-align: center;
   margin: 0;
-  padding: 0;
-  
+  padding: 0;  
 }
 
 /* Navigation*/
@@ -16,13 +14,13 @@
   top: 0;
   width: 100%;
   list-style-type: none;
-  background-color: #DEE7E7;
+  background-color: #026C7C;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #535657;
+  color: #BFAB25;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -33,6 +31,8 @@
 .about {
   height: 100vh;
   top: 0;
+  background-color: #026C7C;
+  color: #BFAB25;
 }
 
 .about h1 {
@@ -48,17 +48,18 @@
 .work {
   padding-top: 60px;
   margin-top: -60px;
+  background-color: #055864;
 }
 
 .work .work-header {
   margin-top: 50px;
-  color: #008080;
+  color: #BFAB25;
   font-weight: normal;
 }
 
 .project {
   text-decoration: none;
-  color: #008080;
+  color: #B81365;
   display: inline-block;
   overflow: hidden;
   height: 220px;
@@ -109,13 +110,13 @@
 /*Contact Section*/
 
 .contact {
-  background: #27354A;
+  background: #6A0136;
   padding-bottom: 160px;
 }
 
 
 .header {
-  background: #27354A;
+  background: #6A0136;
   padding: 160px 0 110px;
 }
 
@@ -125,11 +126,11 @@
   width: 200px;
   height: 30px;
   margin: 20px auto 90px;
-  background: #e0ebe8;
-  color: #008080;
+  background: #026C7C;
+  color: #BFAB25;
   font-weight: bold;
   font-size: 1em;
-  border: 2px solid #6BB4E3;
+  border: 2px solid #B81365;
   border-radius: 4px;
   cursor: pointer;
   padding-top:5px;
@@ -139,8 +140,8 @@
 
 footer {
   padding: 20px;
-  background: #22313F;
-  color: white;
+  background: #026C7C;
+  color: #BFAB25;
   line-height: 40px;
 }
 
