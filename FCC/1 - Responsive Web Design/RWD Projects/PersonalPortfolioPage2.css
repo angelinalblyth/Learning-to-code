@@ -47,7 +47,6 @@
 
 .work {
   padding-top: 60px;
-  
   background-color: #055864;
 }
 
@@ -64,7 +63,6 @@
   overflow: hidden;
   height: 220px;
   width: 280px;
-  margin: 40px 100px;
 }
 
 .project-img {
@@ -81,7 +79,7 @@
   display: block;
   width: 200px;
   height: 30px;
-  margin: 20px auto 90px;
+  margin: auto;
   background: #e0ebe8;
   color: #008080;
   font-weight: bold;
@@ -110,14 +108,15 @@
 /*Contact Section*/
 
 .contact {
-  background: #6A0136;
+  background: #026C7C;
   padding-bottom: 160px;
 }
 
 
 .header {
-  background: #6A0136;
+  background: #026C7C;
   padding: 160px 0 110px;
+  color: #BFAB25;
 }
 
 .contact-details {
