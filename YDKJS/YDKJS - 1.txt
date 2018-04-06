@@ -12,3 +12,10 @@ console.log(a);
 var age = prompt("What is your age?");
 
 console.log(age);
+
+
+/*Operators*/
+
+a = a + 2; 
+
+a += 2;
