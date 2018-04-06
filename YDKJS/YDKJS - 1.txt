@@ -18,4 +18,5 @@ console.log(age);
 
 a = a + 2; 
 
-a += 2;
+a += 2; /* Got 6 eggs in a basket, add 2 more*/ 
+
