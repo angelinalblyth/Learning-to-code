@@ -63,3 +63,10 @@ void 42;
 void 0
 
 //both give undefined. Void is an operator that voids out the value leaving undefined. 
+
+
+//LOOPS
+
+for (a = 5; a < 10 ; a ++){
+	console.log(a);
+}
