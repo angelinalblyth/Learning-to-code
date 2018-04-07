@@ -70,3 +70,21 @@ void 0
 for (a = 5; a < 10 ; a ++){
 	console.log(a);
 }
+
+//Functions
+
+
+function foo() {
+	a = a * 2;
+	a = a + 3;
+}
+
+
+a = 10; 
+
+foo()
+console.log(a);
+foo()
+foo()
+
+console.log(a);
