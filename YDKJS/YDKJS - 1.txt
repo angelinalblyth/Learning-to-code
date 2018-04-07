@@ -14,13 +14,13 @@ var age = prompt("What is your age?");
 console.log(age);
 
 
-/*Operators*/
+//Operators
 
 a = a + 2; 
 
 a += 2; /* Got 6 eggs in a basket, add 2 more*/ 
 
-/*Conversion*/
+//Conversion
 
 a = 42;
 
@@ -30,3 +30,13 @@ a = String(a);
 
 console.log (a);
 
+
+
+
+a = 42;
+
+a = a / 2;
+
+a = a + "";
+
+console.log(a);
