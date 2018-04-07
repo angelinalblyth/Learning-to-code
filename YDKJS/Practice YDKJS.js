@@ -31,3 +31,9 @@ while (amount < bankBalance) {
 amount = amount + calculateTax(amount);
 
 console.log("Your balance is " + formatCost(amount))
+
+if(amount > bankBalance) {
+
+	console.log("you cant afford this");
+	
+}
