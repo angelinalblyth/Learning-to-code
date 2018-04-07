@@ -40,3 +40,13 @@ a = a / 2;
 a = a + "";
 
 console.log(a);
+
+
+//Falsy Values
+
+
+0 -0 NaN
+""
+false
+null
+undefined
