@@ -53,3 +53,13 @@ undefined
 
 
 //If a value is not on the above list then it must be truthy. Memorise this list!!!
+
+
+
+//Void 
+
+void 42;
+
+void 0
+
+//both give undefined. Void is an operator that voids out the value leaving undefined. 
