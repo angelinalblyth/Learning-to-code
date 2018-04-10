@@ -1,48 +1,16 @@
-//Planets Orbital Times 
+var planets = [
+	{planet: 'earth', orbit:1},
+	{planet: 'mercury', orbit:0.2408467},
+	{planet: 'venus', orbit: 0.61519726},
+	{planet: 'mars', orbit: 1.888158},
+	{planet: 'jupitor', orbit:11.862615},
+	{planet: 'saturn', orbit:29.447498},
+	{planet: 'neptune', orbit:164.79132},
+	{planet: 'pluto', orbit: 248},
+	]
+var age = prompt("How old are you on Earth?")
 
- 
-
-var earth = 1; 
-
-var mercury = 0.2408467; 
-
-var venus = 0.61519726; 
-
-var mars = 1.8808158; 
-
-var jupitor = 11.862615; 
-
-var saturn = 29.447498; 
-
-var uranus = 84.016846; 
-
-var neptune = 164.79132; 
-
-var pluto = 248.000; 
-
- 
-
-function formatAge(age) {return age.toFixed( 2 ); } 
-
- 
-
-age = prompt("How old are you on Earth?"); 
- 
-
-console.log(age / earth); 
-
-console.log(age / mercury);  
-
-console.log(age / venus);  
-
-console.log(age / mars);  
-
-console.log(age / jupitor); 
-
-console.log(age / saturn);  
-
-console.log(age / uranus); 
-
-console.log(age / neptune);  
-
-console.log(age / pluto); 
+for (i=0; i< planets.length; i++) {
+	var planetAge = age / planets[i].orbit;
+	console.log("On " + planets[i].planet + " you are " + planetAge);
+}
