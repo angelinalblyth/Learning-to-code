@@ -18,7 +18,7 @@ function calculate() {
 
     //This is changing the P tag that is under Mercury as it is the [1] p tag
     //Change to [0] and it changes the first P tag 'Enter you age...'
-    document.getElementsByTagName("p")[i].innerHTML = planetAge + " years old.";
+    document.getElementsByTagName("p")[i].innerHTML = planetAge + " years old";
   }
   document.getElementById("calculate").addEventListener("click", calculate);
 }
