@@ -1,4 +1,31 @@
 body {
-	background-color: #364652;
-	color: white;
+  background-color: #364652;
+  color: white;
+  font-family: tahoma;
+}
+
+.container { 
+  position:relative;
+  width: 80%;
+  height: 80%;
+  display:block; 
+  text-align: center;
+  margin: auto;
+  margin-top: 8%; 
+}
+
+.planets {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  margin: 25px;
+}
+
+.planet {
+  position: relative; 
+  padding: 20px;
 }
