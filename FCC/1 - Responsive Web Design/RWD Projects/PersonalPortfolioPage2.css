@@ -14,13 +14,13 @@
   top: 0;
   width: 100%;
   list-style-type: none;
-  background-color: #026C7C;
+  background-color: #094055;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #BFAB25;
+  color: #E2DFDE;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,8 +31,8 @@
 .about {
   height: 100vh;
   top: 0;
-  background-color: #026C7C;
-  color: #BFAB25;
+  background-color: #094055;
+  color: #E2DFDE;
 }
 
 .about h1 {
@@ -47,18 +47,19 @@
 
 .work {
   padding-top: 60px;
-  background-color: #055864;
+  background-color: #DEE1E3;
+  padding-bottom: 60px;
 }
 
 .work .work-header {
   margin-top: 50px;
-  color: #BFAB25;
+  color: #F57484;
   font-weight: normal;
 }
 
 .project {
   text-decoration: none;
-  color: #B81365;
+  color: #F57484;
   display: inline-block;
   overflow: hidden;
   height: 220px;
@@ -80,11 +81,11 @@
   width: 200px;
   height: 30px;
   margin: auto;
-  background: #e0ebe8;
-  color: #008080;
+  background: #DEE1E3;
+  color: #094055;
   font-weight: bold;
   font-size: 1em;
-  border: 2px solid #6BB4E3;
+  border: 2px solid #094055;
   border-radius: 4px;
   cursor: pointer;
   padding-top:5px;
@@ -108,15 +109,15 @@
 /*Contact Section*/
 
 .contact {
-  background: #026C7C;
+  background: #094055;
   padding-bottom: 160px;
 }
 
 
 .header {
-  background: #026C7C;
+  background: #094055;
   padding: 160px 0 110px;
-  color: #BFAB25;
+  color: #E2DFDE;
 }
 
 .contact-details {
@@ -125,11 +126,11 @@
   width: 200px;
   height: 30px;
   margin: 20px auto 90px;
-  background: #026C7C;
-  color: #BFAB25;
+  background: #094055;
+  color: #E2DFDE;
   font-weight: bold;
   font-size: 1em;
-  border: 2px solid #B81365;
+  border: 2px solid #DEE1E3;
   border-radius: 4px;
   cursor: pointer;
   padding-top:5px;
@@ -139,8 +140,8 @@
 
 footer {
   padding: 20px;
-  background: #026C7C;
-  color: #BFAB25;
+  background: #E2DFDE;
+  color: #F57484;
   line-height: 40px;
 }
 
