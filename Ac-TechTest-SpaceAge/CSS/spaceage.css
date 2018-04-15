@@ -27,6 +27,12 @@ header h1 {
   text-shadow: 5px 5px #32312b;
 }
 
+.animated-solar{
+  /*border: 5px dotted red;*/
+  text-align: center;
+  font-size: 15px;
+}
+
 /* Solar System Styles */
 ul.solarsystem {
   position: relative;
@@ -415,11 +421,9 @@ h2{
   text-shadow: 5px 5px #32312b;
 }
 
-h3{
-  text-decoration: underline;
-}
 
-h4 {
+
+h3 {
   font-size: 20px;
   text-transform: uppercase;
   text-shadow: 5px 5px #32312b;
