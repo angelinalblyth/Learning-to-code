@@ -15,7 +15,8 @@ function calculate() {
 
   for (i = 1; i <= planets.length; i++) {
     var planetAge = age / planets[i - 1].orbit;
-    document.getElementsByTagName("p")[i].innerHTML = planetAge + "\n years old.";
+    document.getElementsByTagName("p")[i].innerHTML =
+      planetAge + "\n years old.";
   }
   document.getElementById("calculate").addEventListener("click", calculate);
 }
